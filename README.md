@@ -8,6 +8,7 @@ Projekat se bavi analizom skupa podataka DeliciousMil korišćenjem klasterovanj
 2. **02_clustering** — klasterovanje po konvenciji oznaka (k = 20).
 3. **03_association_rules** — pravila asocijacije.
 4. **04_parameter_choice** — traženje boljeg k za svaki algoritam ponaosob, revizija parametara i poređenje klasterovanja bez i sa SVD redukcijom.
+5. **05_raw_vs_svd** — spajanje csv-ova dva prolaza (SVD(100) vs sirovi TF-IDF) u tabele poređenja.
 
 Redosled pokretanja: 01 → 02 → 03 → 04. Sveske 03 i 04 same učitavaju alate iz 01 i 02.
 

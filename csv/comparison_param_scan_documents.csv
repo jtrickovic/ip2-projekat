@@ -33,3 +33,26 @@ Agglomerative,linkage(cut quality),average,0.3917,0.032,,,20,1.0,cophenetic 0.59
 Agglomerative,linkage(cut quality),weighted,0.4158,0.0179,,,20,1.0,cophenetic 0.47,SVD(100)
 Agglomerative,linkage(cut quality),ward,0.4788,0.0165,,,20,1.0,current choice,SVD(100)
 Agglomerative,linkage(cut quality),centroid,0.3852,-0.0993,,,20,1.0,cophenetic 0.33,SVD(100)
+K-Means,init×n_init,k-means++/4,0.4787,0.0088,8.22,11.9,20,1.0,,raw TF-IDF
+K-Means,init×n_init,k-means++/10,0.5069,0.0091,8.29,12.1,20,1.0,default,raw TF-IDF
+K-Means,init×n_init,k-means++/20,0.5069,0.0091,8.29,12.1,20,1.0,,raw TF-IDF
+K-Means,init×n_init,random/4,0.5009,0.0093,7.91,12.0,20,1.0,,raw TF-IDF
+K-Means,init×n_init,random/10,0.5009,0.0093,7.91,12.0,20,1.0,,raw TF-IDF
+K-Means,init×n_init,random/20,0.5009,0.0093,7.91,12.0,20,1.0,,raw TF-IDF
+Bisecting K-Means,strategy,biggest_inertia,0.4645,-0.0,11.55,8.4,20,1.0,default,raw TF-IDF
+Bisecting K-Means,strategy,largest_cluster,0.4761,0.0003,11.77,8.6,20,1.0,,raw TF-IDF
+GMM,covariance(BIC),spherical BIC=-622803253,0.4981,0.0074,8.32,11.7,20,1.0,,raw TF-IDF
+GMM,covariance(BIC),diag BIC=-864159160,0.4862,0.0017,10.12,8.7,20,1.0,selected by BIC,raw TF-IDF
+GMM (diag),n_init,1,0.4862,0.0017,10.12,8.7,20,1.0,default,raw TF-IDF
+GMM (diag),n_init,10,0.5074,0.0013,10.4,8.5,20,1.0,,raw TF-IDF
+NMF,init,nndsvda,0.501,0.0156,8.26,10.4,20,1.0,current choice,raw TF-IDF
+NMF,init,nndsvd,0.5004,0.0158,8.23,10.4,20,1.0,,raw TF-IDF
+NMF,init,random,0.4581,0.013,8.5,10.4,20,1.0,,raw TF-IDF
+DBSCAN,min_samples(eps rule),"ms=5, eps=1.1",0.0415,0.1588,2.15,9.3,34,0.09,,raw TF-IDF
+DBSCAN,min_samples(eps rule),"ms=10, eps=1.1",0.0296,0.1756,2.33,17.9,13,0.07,current choice,raw TF-IDF
+DBSCAN,min_samples(eps rule),"ms=20, eps=1.1",0.0213,0.1911,2.41,37.8,5,0.06,,raw TF-IDF
+DBSCAN,min_samples(eps rule),"ms=30, eps=1.1",0.0179,0.2253,2.15,45.0,4,0.05,,raw TF-IDF
+Spectral (k-NN),n_neighbors,10,0.4455,-0.0082,4.36,7.4,20,1.0,,raw TF-IDF
+Spectral (k-NN),n_neighbors,20,0.4696,0.0026,6.23,9.0,20,1.0,,raw TF-IDF
+Spectral (k-NN),n_neighbors,30,0.4799,0.007,6.47,9.8,20,1.0,current choice,raw TF-IDF
+Spectral (k-NN),n_neighbors,50,0.4982,0.008,7.15,9.9,20,1.0,,raw TF-IDF
