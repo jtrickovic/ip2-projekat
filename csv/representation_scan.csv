@@ -1,0 +1,6 @@
+representation,purity_mean,purity_sd,explained_var
+raw TF-IDF (L2),0.5026,0.0085,
+SVD(50)+L2,0.5213,0.0026,0.118
+SVD(100)+L2,0.5265,0.0089,0.172
+SVD(150)+L2,0.5158,0.012,0.216
+SVD(300)+L2,0.518,0.0071,0.32

@@ -1,0 +1,3 @@
+algorithm,parameter,chosen,criterion
+GMM,covariance_type,diag,min BIC
+DBSCAN,eps,1.1,najviše klastera uz pokrivenost >= 0.5

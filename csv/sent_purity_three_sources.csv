@@ -1,0 +1,11 @@
+layer,algorithm,pur_nasl,pur_knn,pur_true
+k=40,K-Means,0.394,0.2915,0.3093
+k=40,Bisecting K-Means,0.3939,0.2615,0.314
+k=40,GMM,0.3873,0.2564,0.2738
+k=40,BIRCH,0.3937,0.2398,0.2888
+k=40,NMF,0.3885,0.2666,0.2956
+najbolji k,K-Means,0.4037,0.3432,0.342
+najbolji k,Bisecting K-Means,0.3988,0.2939,0.3283
+najbolji k,GMM (diag),0.3905,0.2623,0.2868
+najbolji k,BIRCH,0.4007,0.2963,0.3304
+najbolji k,NMF,0.3977,0.3171,0.3488

@@ -1,0 +1,6 @@
+representation,purity,explained_var
+raw TF-IDF (L2),0.3903,
+SVD(25)+L2,0.3912,0.06
+SVD(50)+L2,0.3867,0.102
+SVD(100)+L2,0.3958,0.17
+SVD(150)+L2,0.3848,0.221

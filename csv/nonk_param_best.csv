@@ -1,0 +1,4 @@
+algorithm,parameter,chosen,criterion
+GMM,covariance_type,diag,min BIC
+DBSCAN,eps,0.85,najviše klastera uz pokrivenost >= 0.5
+BIRCH,threshold,0.3,"silueta >= 50% max, pa najbolji balans"
